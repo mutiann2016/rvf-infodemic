@@ -1,0 +1,49 @@
+
+=== RVF 3-parameter fit: 04-Oct-2026 18:40:14 ===
+Working folder: C:\Users\hp\Desktop\RVF_Model
+
+--- SMOKE TEST ---
+SMOKE TEST PASSED. I_L(end) = 1.16599e-06, I_H(end) = 1.3744e-06
+
+--- fmincon ---
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+    0       4    6.306984e+02    0.000e+00    1.686e-03
+    1       8    6.306983e+02    0.000e+00    1.670e-03    4.703e-03
+    2      12    6.306983e+02    0.000e+00    1.525e-03    3.317e-02
+    3      16    6.306983e+02    0.000e+00    1.144e-03    8.827e-02
+    4      20    6.306983e+02    0.000e+00    7.563e-04    2.249e-01
+    5      24    6.306983e+02    0.000e+00    1.626e-03    4.137e-01
+    6      28    6.306984e+02    0.000e+00    2.657e-03    3.050e-01
+    7      32    6.306984e+02    0.000e+00    2.624e-03    2.344e-02
+    8      36    6.306984e+02    0.000e+00    2.244e-03    4.779e-02
+    9      40    6.306983e+02    0.000e+00    1.210e-03    1.754e-01
+   10      44    6.306983e+02    0.000e+00    9.977e-04    1.899e-01
+   11      48    6.306983e+02    0.000e+00    2.082e-04    2.061e-02
+   12      52    6.306983e+02    0.000e+00    6.680e-06    1.317e-02
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_found','CSHelpWindow');">Local minimum found that satisfies the constraints</a>.
+
+Optimization completed because the objective function is non-decreasing in 
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'feasible_directions','CSHelpWindow');">feasible directions</a>, to within the selected value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_msgcsh','CSHelpWindow');">optimality tolerance</a>,
+and constraints are satisfied to within the selected value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg('barrier',1.000000e+00,true,true,'fmincon',6.679959e-06,'selected',1.000000e-05,0.000000e+00,'selected',1.000000e-06,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+>>> SAVED: C:\Users\hp\Desktop\RVF_Model\RVF_fit_output.txt
+
+========== ESTIMATED PARAMETERS ==========
+  sigma1   = 0.953968
+  BetaA    = 1.15934
+  phiF     = 1.36503
+  FVAL      = 630.698
+  EXITFLAG  = 1
+
+========== DERIVED QUANTITIES ==========
+  A*        = 0.616506
+  R_A       = 1.713957
+  R_H       = 0.001897
+  phi_F^c   = -0.080291
+========================================
+>>> Appended derived quantities to C:\Users\hp\Desktop\RVF_Model\RVF_fit_output.txt

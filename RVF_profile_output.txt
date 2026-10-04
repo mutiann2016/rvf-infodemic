@@ -1,0 +1,10 @@
+Profile-likelihood 95% intervals for the reduced fit
+Run at 04-Oct-2026 19:58:25
+
+J_opt      = 620.933
+Threshold  = 624.774
+
+Parameter         Value    Lower 95%    Upper 95%
+sigma1            0.954       0.6678         1.24
+BetaA             1.159       0.8113        1.507
+phiF              1.365       0.9555        1.774

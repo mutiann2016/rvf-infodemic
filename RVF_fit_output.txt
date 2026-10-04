@@ -1,0 +1,29 @@
+RVF 3-parameter fit (real data only)
+Fit run: 04-Oct-2026 18:40:21
+
+Estimated parameters:
+  sigma1   = 0.95396805
+  BetaA    = 1.1593422
+  phiF     = 1.3650321
+
+FVAL      = 630.69829
+EXITFLAG  = 1
+
+Fixed parameters (Table 3, Table 5 of the manuscript):
+  theta    = 0.47
+  BetaHL   = 0.05
+  BetaR    = 0.33
+  bmax     = 182
+  Kappa1   = 0.29
+  Kappa3   = 0.21
+  mu1      = 0.00017
+  mu3      = 0.38
+  mu4      = 0.26
+  gamma    = 0.031
+  Alpha    = 0.63
+
+Derived quantities
+  A*        = 0.616506
+  R_A       = 1.713957
+  R_H       = 0.001897
+  phi_F^c   = -0.080291
